@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HiController {
 
-
+//http://localhost:8765/hi?name=arryluo
     //编译器报错，无视。 因为这个Bean是在程序启动的时候注入的，编译器感知不到，所以报错。
     @Autowired
     SchedualServiceHi schedualServiceHi;
